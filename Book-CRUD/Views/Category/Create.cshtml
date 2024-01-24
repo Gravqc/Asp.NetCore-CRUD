@@ -1,0 +1,44 @@
+﻿@model Category
+@* This Razor view form is for creating a new 'Category'. It binds to the 'Category' model. *@
+<form method="post">
+    <div class=" border p-3 mt-0-4">
+        @* Header section with a title and a horizontal line. *@
+        <div class="row pb-2">
+            <h2 class="text-primary">Create Category</h2>
+            <hr />
+        </div>
+       @*  If you want to give a summary of the validations that failed use this <div asp-validation-summary="All" ></div> *@
+        @* Input fields for 'Name' and 'DisplayOrder' properties of the 'Category' model. *@
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control"/>
+
+            @* These spans display validation messages for 'Name' and 'DisplayOrder' fields.
+            They show errors in red text when the validation rules for these fields are not met. *@
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+        <label asp-for="DisplayOrder"></label>
+            <input asp-for="DisplayOrder" class="form-control" />
+            <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+    </div>
+        @* Buttons for submitting the form or returning to the category list. *@
+    <button type ="submit" class="btn btn-primary" style="width: 150px">Create</button>&nbsp;
+      <a asp-controller="Category" asp-action="Index" class="btn btn-primary" style="width: 150px bg-dark">Back to List</a>
+    
+    </div>
+
+</form>
+@* all the validations are now done on client side, this is done for:
+- immediate feedback
+- reduced server load
+- enhanced user experience
+*@
+
+ @section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+
+    }
+}
+
