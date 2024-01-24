@@ -2,7 +2,7 @@
 
 ## Introduction
 - This application is a straightforward CRUD (Create, Read, Update, Delete) web application focusing on data manipulation within a SQL Server database. It leverages Entity Framework Core for database operations and ASP.NET Core for the web framework.
-- 
+  
 ## Technology
 - **ASP.NET Core**: A framework for building web apps and services with .NET and C#.
 - **Entity Framework Core**: An object-database mapper for .NET, enabling .NET developers to work with a database using .NET objects.
