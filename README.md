@@ -2,7 +2,15 @@
 
 ## Introduction
 - This application is a straightforward CRUD (Create, Read, Update, Delete) web application focusing on data manipulation within a SQL Server database. It leverages Entity Framework Core for database operations and ASP.NET Core for the web framework.
-
+- 
+## Technology
+- **ASP.NET Core**: A framework for building web apps and services with .NET and C#.
+- **Entity Framework Core**: An object-database mapper for .NET, enabling .NET developers to work with a database using .NET objects.
+- **SQL Server**: A relational database management system by Microsoft, used to store and manage the application's data.
+- **Bootstrap**: A front-end framework for developing responsive and mobile-first web pages.
+- **JavaScript/JQuery**: Used for enhancing the interactivity and user experience on the client side.
+- **HTML5 & CSS3**: Fundamental technologies for building and styling web pages.
+  
 ## Features
 - Data-Driven Design: Centralized around database operations.
 - SQL Server Database: Stores all application data.
@@ -40,3 +48,5 @@
 ![Edit-Category](https://github.com/Gravqc/Asp.NetCore-CRUD/assets/90492971/2f894d8f-638d-4f5a-a217-8c2e9627a8e6)
 
 <br /><br />
+
+
