@@ -3,13 +3,12 @@
 ## Introduction
 - This application is a straightforward CRUD (Create, Read, Update, Delete) web application focusing on data manipulation within a SQL Server database. It leverages Entity Framework Core for database operations and ASP.NET Core for the web framework.
   
-## Technology
-- **ASP.NET Core**
-- **Entity Framework Core**
-- **SQL Server**
-- **Bootstrap**
-- **JavaScript/JQuery**
-- **HTML5 & CSS3**
+## Project Goals: Learnings
+- Developing asp.netcore web application
+- C#
+- SQL Server
+- CRUD Functionalities
+- Razor Views
   
 ## Features
 - Data-Driven Design: Centralized around database operations.
